@@ -1,0 +1,21 @@
+#projContainer {
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: center;
+    padding: 2px;
+    width: 1200px;
+    justify-content: center;
+}
+
+.card-body {
+    padding: 1px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card {
+    height: 190px;
+}

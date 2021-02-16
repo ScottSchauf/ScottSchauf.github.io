@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="jumbotron rounded-0">
+    <h1 class="display-4">Scott Schauf</h1>
+    <p class="lead">Web Developer & Lifelong Learner</p>
+  </div>
+
+
+    <!-- Navbar -->
+    <div class="navbarStyling">
+    <ul class="nav nav-tabs justify-content-center bg-transparent border-0" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link bg-transparent border-0" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About Me</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link bg-transparent border-0" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Projects</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link bg-transparent border-0" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+      </li>
+    </ul>
+  </div>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+      
+        <h2>ABOUT ME</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-2">
+              <img src="assets/picture.jpg" class="rounded" id="me">
+            </div>
+            <div class="col">
+              <p class="aboutMe">
+                I've spent the majority of my working life around children, and it was truly one of the most transformational and rewarding experiences I've encountered. It was frequently challenging and often stressful, to be sure, but it also allowed me to develop creative problem-solving skills, more effective communication techniques, organizational/planning strategies, and a greater understanding of people and relationship management. In short, it made me a better worker, and a much better person.</p>
+
+                <p class="aboutMe">And now I'm ready for a new challenge. I taught myself HTML and CSS while I was in middle school, but things have certainly changed and advanced a great deal since 1999. I'm currently enrolled in a Web Development boot camp course to refresh and refine my skills, and I'm excited to join a company and begin adding value in a totally new field.</p>
+            </div>
+            <div class="col-3" id="resources">
+              <div class="sideBar rounded">
+              <h2 class="skills">Resources</h2>
+              <p><a href="assets/Resume.pdf">Download My Resume</a></p>
+              <a href="https://github.com/scottschauf"><img class="icon" src="assets/github.png"></a>
+              <a href="http://www.linkedin.com/in/scottschauf"><img class="icon" src="assets/linkedin.png"></a>
+              <br>
+              <br>
+              <h2 class="skills">My Skills</h2>
+              <p>
+                <img class="icon" src="assets/html5.png">
+                <img class="icon" src="assets/css3.png">
+                <img class="icon" src="assets/javascript.png">
+              </p>
+              <p>
+                <img class="icon" src="assets/adobe.png">
+                <img class="icon" src="assets/slack.png">
+                <img class="icon" src="assets/github.png">
+              </p>
+              <p>
+                <img class="icon" src="assets/github.png">
+                <img class="icon" src="assets/github.png">
+                <img class="icon" src="assets/github.png">
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        
+      </div>
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <h2>PROJECTS</h2>
+
+        <div class="container" id="projContainer">
+          <div class="row">
+            <div class="col-3">
+              <div class="card" style="width: 18rem;">
+                <a href="https://codepen.io/ScottSchauf/pen/wvzLNmm"><img src="assets/csscreature.jpg" class="card-img-top" alt="CSS Creature"></a>
+                <div class="card-body">
+                  <p class="card-text">
+                    <b>CSS Creature</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card" style="width: 18rem;">
+                <a href="https://scottschauf.github.io/staticLayout/"><img src="assets/staticLayout.jpg" class="card-img-top" alt="CSS Creature"></a>
+                <div class="card-body">
+                  <p class="card-text">
+                    <b>Static Layout</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card" style="width: 18rem;">
+                <a href="https://scottschauf.github.io/firstAPI/"><img src="assets/ghibli.jpg" class="card-img-top" alt="CSS Creature"></a>
+                <div class="card-body">
+                  <p class="card-text">
+                    <b>Studio Ghibli Movie-Picker</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card" style="width: 18rem;">
+                <a href="https://codepen.io/ScottSchauf/pen/wvzLNmm"><img src="assets/coming.png" class="card-img-top" alt="CSS Creature"></a>
+                <div class="card-body">
+                  <p class="card-text">
+                    <b>API Project #2</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-3">
+              <div class="card" style="width: 18rem;">
+                <a href="https://codepen.io/ScottSchauf/pen/wvzLNmm"><img src="assets/coming.png" class="card-img-top" alt="CSS Creature"></a>
+                <div class="card-body">
+                  <p class="card-text">
+                    <b>Blue Badge Project #1</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card" style="width: 18rem;">
+                <a href="https://codepen.io/ScottSchauf/pen/wvzLNmm"><img src="assets/coming.png" class="card-img-top" alt="CSS Creature"></a>
+                <div class="card-body">
+                  <p class="card-text">
+                    <b>Blue Badge Project #2</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card" style="width: 18rem;">
+                <a href="https://codepen.io/ScottSchauf/pen/wvzLNmm"><img src="assets/coming.png" class="card-img-top" alt="CSS Creature"></a>
+                <div class="card-body">
+                  <p class="card-text">
+                    <b>Red Badge Project #1</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="card" style="width: 18rem;">
+                <a href="https://codepen.io/ScottSchauf/pen/wvzLNmm"><img src="assets/coming.png" class="card-img-top" alt="CSS Creature"></a>
+                <div class="card-body">
+                  <p class="card-text">
+                    <b>Red Badge Project #2</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        <h2 class="text-center text-uppercase">Contact Me</h2>
+            <div class="row">
+                <div class="col-12">
+                    <form action="https://formspree.io/f/xyybaybz" method="POST">
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                                    data-validation-required-message="Please enter your name" name="name">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                                    data-validation-required-message="Please enter your email" name="_replyto">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group">
+                                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                                    data-validation-required-message="Please leave a message" name="message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <div id="success"></div>
+                            <button type="submit" class="btn btn-lg btn-black">
+                                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+      </div>
+    </div>
+
+    <!--FOOTER -->
+<div class="footer">
+  <p>&copy; 2021 Scott Schauf</p>
+</div>
+
+
+    <!-- Bootstrap JS Links -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>

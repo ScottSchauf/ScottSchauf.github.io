@@ -1,0 +1,30 @@
+.container {
+    max-width: 2000px;
+}
+
+#me {
+    width: 250px;
+}
+
+#resources {
+    text-align: center;
+}
+
+.skills {
+    color: var(--blue);
+}
+
+.icon {
+    height: 50px;
+    margin: 5px;
+}
+
+.sideBar {
+    background-color: var(--gray);
+    height: 450px;
+    width: 300px;
+}
+
+.aboutMe {
+    color: var(--gray);
+}

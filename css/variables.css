@@ -1,0 +1,10 @@
+/* root is grabbing the "root" element of our HTML document (which in this case is our tag <html> */
+:root {
+    --blue: #14213d;
+    --golden: #fca311;
+    --white: #ffffff;
+    --gray: #e5e5e5;
+    --black: #000000;
+
+    --font-one: 'Amatic SC', cursive;
+}
