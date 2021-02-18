@@ -6,6 +6,7 @@ h2 {
     color: var(--golden);
     text-align: center;
     text-transform: capitalize;
+    font-family: 'Staatliches', cursive;
 }
 
 .text-center button {
