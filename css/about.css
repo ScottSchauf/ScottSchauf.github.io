@@ -3,7 +3,7 @@
 }
 
 #me {
-    width: 250px;
+    width: 100%;
 }
 
 #resources {
@@ -21,8 +21,8 @@
 
 .sideBar {
     background-color: var(--gray);
-    height: 450px;
-    width: 300px;
+
+    width: 100%;
 }
 
 .aboutMe {
